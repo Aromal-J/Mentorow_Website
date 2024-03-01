@@ -1,0 +1,35 @@
+.large-header-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.learn{
+    -webkit-text-stroke: 1.5px #ffffff;
+    color: transparent;
+    font-family: "Sen", Helvetica;
+    font-size: 96px;
+    font-weight: 800;
+}
+.the-future{
+    margin: 0 auto;
+    color: transparent;
+    font-family: "Sen-ExtraBold", Helvetica;
+    font-size: 96px;
+    font-weight: 800;
+}
+.text-wrapper {
+    color: #ffffff;
+  }
+    
+.text-wrapper-2 {
+    color: #c9f55f;
+}
+.with-us{
+    margin-left: auto;
+    -webkit-text-stroke: 1.5px #ffffff;
+    color: transparent;
+    font-family: "Sen", Helvetica;
+    font-size: 96px;
+    font-weight: 800;
+
+}
