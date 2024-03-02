@@ -1,12 +1,14 @@
-import React from 'react'
-import CompanyLogo from './CompanyLogo'
+import React from "react";
+import CompanyLogo from "./CompanyLogo";
+import InfinityLogoSlide from "./InfinityLogoSlide";
 
 function Layout() {
   return (
     <div>
-        <CompanyLogo/>
+      <InfinityLogoSlide />
+      <CompanyLogo />
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

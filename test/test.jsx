@@ -15,7 +15,7 @@ import InfinityLogoSlide from "../components/InfinityLogoSlide";
 const Test = () => {
   return (
     <div className="main-container">
-      <InfinityLogoSlide/>
+      <InfinityLogoSlide/>  
       <div className="simple-step-container">
         <div className="heading-container">
           <div className="heading-1">Simple Steps</div>
