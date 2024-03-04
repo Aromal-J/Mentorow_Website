@@ -1,0 +1,39 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos-container {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  margin-bottom: 5vh;
+}
+
+.logos-container:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 20s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 4vw;
+  margin: 0 2vw;
+}
+@media screen and (max-width: 1100px) {
+  .logos-slide img {
+    height: 6vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logos-slide img {
+    height: 11vw;
+  }
+}

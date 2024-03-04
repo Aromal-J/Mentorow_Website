@@ -1,10 +1,10 @@
 import React from "react";
-import wowmaker from "../logos/wowmaker.png";
-import eunoians from "../logos/eunoians.png";
-import webandcrafts from "../logos/webandcrafts.png";
-import aabasoft from "../logos/aabasoft.png";
-import focaloid from "../logos/focaloid.png";
-import fengo from "../logos/fengo.png";
+import wowmaker from "../assets/logos/wowmaker.png";
+import eunoians from "../assets/logos/eunoians.png";
+import webandcrafts from "../assets/logos/webandcrafts.png";
+import aabasoft from "../assets/logos/aabasoft.png";
+import focaloid from "../assets/logos/focaloid.png";
+import fengo from "../assets/logos/fengo.png";
 import "./logo.css";
 
 function InfinityLogoSlide() {

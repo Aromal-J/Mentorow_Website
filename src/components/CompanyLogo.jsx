@@ -1,8 +1,8 @@
 import React from "react";
-import first from "../svg/first.svg";
-import second from "../svg/second.svg";
-import third from "../svg/third.svg";
-import fourth from "../svg/fourth.svg";
+import first from "../assets/svg/first.svg";
+import second from "../assets/svg/second.svg";
+import third from "../assets/svg/third.svg";
+import fourth from "../assets/svg/fourth.svg";
 import "./cards.css";
 
 function CompanyLogo() {
